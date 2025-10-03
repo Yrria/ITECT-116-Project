@@ -1,0 +1,13 @@
+{
+  "name": "activity5",
+  "version": "1.0.0",
+  "scripts": {
+    "install:all": "npm install && cd backend && npm install && cd ../frontend && npm install",
+    "start": "concurrently \"npm run start:backend\" \"npm run start:frontend\"",
+    "start:backend": "cd backend && npm run start:dev",
+    "start:frontend": "cd frontend && npm start"
+  },
+  "devDependencies": {
+    "concurrently": "^9.0.0"
+  }
+}

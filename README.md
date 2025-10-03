@@ -1,30 +1,37 @@
 # ITECT 116 - Activity Project Compilation
 
-## Help And Guide ( Git Commands )
+### Laboratory Activities
 
-### Initialize repository
+* **Activity 1**
+    * To-Do List API + UI
 
-* **git init**
-    * (one time only | Pag naka pag init kana di mo na kilangan pa ulit mag init pa).
-* **git branch -m main**
-    * (Change from master to main).
-* **git remote add origin "--GIT REPOSITORY LINK--"**
-    * (one time only | Pag naka pag remote add kana di mo na kilangan pa ulit mag remote).
- 
-### Retrieve Data from Github Repository
+* **Activity 2**
+    * Notes API + UI
 
-* **git pull origin main**
-    * (retrieve data from git repository).
-      
-### Upload New Update to Github Repository
+* **Activity 3**
+    * Bookshelf API + UI
+    
+* **Activity 4**
+    * Weather Proxy API
 
-* **git add .**
-    * (Add all data in folder to repository).
-* **git commit -m "--COMMENT--"**
-    * (Save and Add comment in file).
-* **git push origin main**
-    * (Upload the file to GIT repository ).
-<br/>
+* **Activity 5**
+    * Blog Platform API + UI
+    
+* **Activity 6**
+    * Movie Review API + UI
+
+* **Activity 7**
+    * Task Management System
+
+* **Activity 8**
+    * Chatroom REST API + UI
+    
+* **Activity 9**
+    * Mini E-Commerce API + UI
+
+* **Activity 10**
+    * Event Registration & Ticket QR Scanner
+    
 
 ### NOTE (FOR CONTRIBUTORS)
 * Always back up your files before pulling from the repository.
@@ -34,21 +41,26 @@
 
 ## Help And Guide ( How to Run React App )
 
-### VS Code Terminal
-
-* **cd directory(dapat nasa loob nung file)**
-    * (cd [name ng folder na gaw ni loel]).
-    * ex. cd rizal-interactive-web (para pumasok sa main folder natin
-    * required kung ang naka lagay sa terminal ay ( ex. PS C:\Users\PC\Desktop\rizal\>  |  dapat ay PS C:\Users\PC\Desktop\rizal\rizal-interactive-web> - nasa main folder kana )
+* **VS Code Folder**
+    * Open the specific activity.
+    * ex. kung activity 1 ang ieedit activity 1 folder ang i open.
     * para di na mag cd, pag nag open ng folder sa VS Code dapat ay i-select or pumasok ka sa folder "rizal-interactive-web" - (main folder) para rekta na PS C:\Users\PC\Desktop\rizal\rizal-interactive-web>
 * **npm install**
+    * manual instalation for each folder (backend, frontend).
     * (to install necessary file/folder - node_modules).
     * di kasi na pupush sa git repo yang node_modules folder
     * **npm install** ( sa unang pull ng files sa repo required iinstall )
 
 
-* **npm start**
-    * (to start the react app - [http://localhost:3000](http://localhost:3000) to view it in your browser.).
+* **npm run install:all**
+    * (Automatic Install all dependency (node_modules of folder root folder, backend, frontend)).
+    * Can install directly from root folder.
+    * (ex. [PS C:\Users\PC\Desktop\ITEC 116 - Project\Activity 1>  npm run install:all])
+
+    * **npm start**
+    * (Run both Frontend and Backend).
+    * Can run directly from root folder.
+    * (ex. [PS C:\Users\PC\Desktop\ITEC 116 - Project\Activity 1>  npm start])
 
 ## GIT FEATURE
 
@@ -80,7 +92,9 @@
 
 | Command                                     | Description                                                       |
 |---------------------------------------------|-------------------------------------------------------------------|
+| `git checkout main`                         | Switch to main branch                                             |
 | `git pull origin main`                      | pull data of main to local computer                               |
+| `git checkout your-branch-name`             | Switch to your feature branch your-branch                         |
 | `git pull origin branch-name`               | pull data of other branch to local computer                       |
 
 <br>
@@ -108,7 +122,7 @@
 
 <br>
 
-# STEP 6: Merge chnages to main branch (Merge data of your branch into Main branch).
+# STEP 6: Merge changes to main branch (Merge data of your branch into Main branch).
 ### NOTES: Make sure your branch is up todate before merging to main branch. <br> After "git merge main" then switched to main branch (git checkout main). <br> Ignore this message: "'main' Your branch is behind 'origin/kana' by 2 commits, and can be fast-forwarded ". <br> After merging your own branch into main (git merge your-own-branch) and pushing, it will be automatically updated. <br> Use "git status" to double check the branch.
 
 | Command                                     | Description                                                       |
