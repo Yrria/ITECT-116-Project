@@ -2,35 +2,25 @@
 
 ### Laboratory Activities
 
-* **Activity 1**
-    * To-Do List API + UI
+* **Activity 1: - To-Do List API + UI**
 
-* **Activity 2**
-    * Notes API + UI
+* **Activity 2: - Notes API + UI**
 
-* **Activity 3**
-    * Bookshelf API + UI
+* **Activity 3: - Bookshelf API + UI**
     
-* **Activity 4**
-    * Weather Proxy API
+* **Activity 4: - Weather Proxy API**
 
-* **Activity 5**
-    * Blog Platform API + UI
+* **Activity 5: - Blog Platform API + UI**
     
-* **Activity 6**
-    * Movie Review API + UI
+* **Activity 6: - Movie Review API + UI**
 
-* **Activity 7**
-    * Task Management System
+* **Activity 7: - Task Management System**
 
-* **Activity 8**
-    * Chatroom REST API + UI
+* **Activity 8: - Chatroom REST API + UI**
     
-* **Activity 9**
-    * Mini E-Commerce API + UI
+* **Activity 9: - Mini E-Commerce API + UI**
 
-* **Activity 10**
-    * Event Registration & Ticket QR Scanner
+* **Activity 10: - Event Registration & Ticket QR Scanner**
     
 
 ### NOTE (FOR CONTRIBUTORS)
