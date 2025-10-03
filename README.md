@@ -207,6 +207,8 @@
 | FETCH LATEST UPDATES FROM MAIN TO OWN BRANCH                      | FETCH LATEST UPDATES FROM MAIN TO OWN BRANCH                      |
 |                                                                   |                                                                   |
 |                                                                   |                                                                   |
+| `git checkout main`                                               | `git checkout your-branch-name`                                   |
+| `git pull origin main `                                           | `git pull origin main `                                           |
 | `git checkout your-branch-name`                                   | `git checkout your-branch-name`                                   |
 | `git pull origin main `                                           | `git pull origin main `                                           |
 | `git add .`                                                       | `git add .`                                                       |
